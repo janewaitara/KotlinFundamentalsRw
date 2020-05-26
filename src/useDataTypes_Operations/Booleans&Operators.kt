@@ -5,9 +5,9 @@ fun main() {
     val isProgrammingAwesome = true
     println("Is programming awesome?  $isProgrammingAwesome")
 
-    val myAge = 21
-    val isLegalDriving = myAge >= 18
-    println(isLegalDriving)
+    val myAge = 18
+    val isLegalDrivingAge = myAge >= 18
+    println(isLegalDrivingAge)
 
     val ageTim = 27
     val isTimOlder = ageTim > myAge
@@ -33,8 +33,22 @@ fun main() {
     println(firstObject !== secondObject)
 
     val isNameEmpty = myName.isEmpty()
-    println(isNameEmpty)
+    println("$isNameEmpty\n")
 
+   /*
+   * Challenges
+   * Check and store in a Boolean if a password is secure
+   * password is secure if it has at least 10 characters
+   * check is two people have the same name length
+   *
+   * */
+
+    val password = "Jane1234"
+    val isPasswordSecure  = password.length >= 10
+    println(isPasswordSecure)
+
+    val isNameLengthSame = myName.length == strangerName.length
+    println(isNameLengthSame)
 
 
 }
