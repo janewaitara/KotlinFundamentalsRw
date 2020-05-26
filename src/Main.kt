@@ -1,4 +1,12 @@
-fun main() {
+
+/**
+ * documentation comments
+ * You can reference things here , like the [main] function
+ * You can also reference parameters, like the [arguments].
+ *
+ * @author Jane Waitara
+ * */
+fun main(arguments: Array<String>) {
 
     var myAge: Int = 21
     val name : String = "Jane"
@@ -25,5 +33,11 @@ fun main() {
 
     val nameLength = fullName.length
     println(nameLength)
+
+    //This is s line comment
+
+    /*
+    * This is a multi-line comment
+    * */
 
 }
