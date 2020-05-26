@@ -17,4 +17,13 @@ fun main() {
     val  fullName = "$lastname, $name"
     println(fullName)
 
+    val ageAsString: String = myAge.toString()
+    println(ageAsString)
+
+    val ageFromString =  "40".toInt()
+    println(ageFromString)
+
+    val nameLength = fullName.length
+    println(nameLength)
+
 }
