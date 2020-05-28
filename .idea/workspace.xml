@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ffb74-2d32-4fc8-99fd-518d933940b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/storeDataInCollections/arrays.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/storeDataInCollections/lists.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/META-INF/KotlinFundamentalsRw.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/META-INF/KotlinFundamentalsRw.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storeDataInCollections/arrays.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeDataInCollections/arrays.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,7 +22,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/nullable.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="915">
               <caret line="61" selection-start-line="61" selection-end-line="61" />
             </state>
           </provider>
@@ -38,20 +40,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="347">
+            <state relative-caret-position="510">
               <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/arrays.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-              <folding>
-                <element signature="e#32#70#0" />
-              </folding>
+            <state relative-caret-position="152">
+              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/lists.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="587">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -80,6 +88,7 @@
         <option value="$PROJECT_DIR$/src/useDataTypes_Operations/challenge.kt" />
         <option value="$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt" />
         <option value="$PROJECT_DIR$/src/storeDataInCollections/arrays.kt" />
+        <option value="$PROJECT_DIR$/src/storeDataInCollections/lists.kt" />
       </list>
     </option>
   </component>
@@ -157,7 +166,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.storeDataInCollections.ArraysKt">
+  <component name="RunManager" selected="Kotlin.storeDataInCollections.ListsKt">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" value="" />
@@ -184,6 +193,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="storeDataInCollections.ListsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamentalsRw" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="storeDataInCollections.ListsKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="storeDataInCollections.PairsandTriplesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" />
@@ -192,19 +214,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="storeDataInCollections.PairsandTriplesKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="useDataTypes_Operations.BranchwithIfExpressionsandScopeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFundamentalsRw" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="useDataTypes_Operations.BranchwithIfExpressionsandScopeKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -238,11 +247,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.storeDataInCollections.ListsKt" />
         <item itemvalue="Kotlin.storeDataInCollections.ArraysKt" />
         <item itemvalue="Kotlin.storeDataInCollections.PairsandTriplesKt" />
         <item itemvalue="Kotlin.useDataTypes_Operations.ChallengeKt" />
         <item itemvalue="Kotlin.useDataTypes_Operations.NullableKt" />
-        <item itemvalue="Kotlin.useDataTypes_Operations.BranchwithIfExpressionsandScopeKt" />
       </list>
     </recent_temporary>
   </component>
@@ -258,18 +267,19 @@
       <updated>1590477857247</updated>
       <workItem from="1590477859820" duration="2402000" />
       <workItem from="1590480415426" duration="4948000" />
-      <workItem from="1590657363386" duration="9599000" />
+      <workItem from="1590657363386" duration="11068000" />
+      <workItem from="1590688379428" duration="1655000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16949000" />
+    <option name="totallyTimeSpent" value="20073000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="38" y="-11" width="1329" height="780" extended-state="6" />
+    <frame x="39" y="-4" width="1327" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25761124" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26151446" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -284,7 +294,7 @@
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32884902" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.32884902" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
@@ -334,7 +344,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/nullable.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="915">
           <caret line="61" selection-start-line="61" selection-end-line="61" />
         </state>
       </provider>
@@ -348,18 +358,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
+        <state relative-caret-position="510">
           <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/arrays.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="57" column="44" selection-start-line="57" selection-start-column="44" selection-end-line="57" selection-end-column="44" />
-          <folding>
-            <element signature="e#32#70#0" />
-          </folding>
+        <state relative-caret-position="152">
+          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/lists.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="587">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
         </state>
       </provider>
     </entry>

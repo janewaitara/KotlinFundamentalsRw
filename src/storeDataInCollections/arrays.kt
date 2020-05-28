@@ -40,6 +40,7 @@ fun main() {
     println(visitedCountries.size)
     println(visitedCountries[2])
 
+    //changing an element
     visitedCountries[3] = "United States of America"
     println(visitedCountries[3])
 
