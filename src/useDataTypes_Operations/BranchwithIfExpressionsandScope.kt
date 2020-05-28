@@ -28,4 +28,22 @@ fun main() {
     }
 
     println(generationCohort)
+
+    val myEmail = "janewaitara99@gmail.com"
+    val userName = "mumbiCodes"
+    val myPassword = 12312455
+
+    val dataIsValid =if (myEmail.isEmpty() || myPassword.toString().isEmpty() || userName.isEmpty() ) {
+            "You must fill in your details"
+        } else if ( !myEmail.contains("@") || !myEmail.contains(".")){
+            "Invalid email format"
+        }else if ( userName.length < 6){
+            "Username must be atleast 6 characters"
+        }else if (myPassword.toString().length < 10){
+            "Password must be atleast 10 characters"
+        }else{
+            "The data is not valid"
+        }
+
+    println(dataIsValid)
 }

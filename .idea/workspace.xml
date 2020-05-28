@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ffb74-2d32-4fc8-99fd-518d933940b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useDataTypes_Operations/nullable.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/useDataTypes_Operations/BranchwithIfExpressionsandScopeKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/useDataTypes_Operations/BranchwithIfExpressionsandScopeKt.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -44,11 +46,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+            <state relative-caret-position="407">
+              <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/nullable.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="542">
+              <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -73,6 +84,7 @@
         <option value="$PROJECT_DIR$/src/useDataTypes_Operations/Booleans&amp;Operators.kt" />
         <option value="$PROJECT_DIR$/src/useDataTypes_Operations/logicalOperators.kt" />
         <option value="$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt" />
+        <option value="$PROJECT_DIR$/src/useDataTypes_Operations/nullable.kt" />
       </list>
     </option>
   </component>
@@ -144,7 +156,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.useDataTypes_Operations.BranchwithIfExpressionsandScopeKt">
+  <component name="RunManager" selected="Kotlin.useDataTypes_Operations.NullableKt">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" value="" />
@@ -197,8 +209,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="useDataTypes_Operations.NullableKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamentalsRw" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="useDataTypes_Operations.NullableKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.useDataTypes_Operations.NullableKt" />
         <item itemvalue="Kotlin.useDataTypes_Operations.BranchwithIfExpressionsandScopeKt" />
         <item itemvalue="Kotlin.useDataTypes_Operations.LogicalOperatorsKt" />
         <item itemvalue="Kotlin.useDataTypes_Operations.Booleans_OperatorsKt" />
@@ -217,12 +243,12 @@
       <updated>1590477857247</updated>
       <workItem from="1590477859820" duration="2402000" />
       <workItem from="1590480415426" duration="4948000" />
-      <workItem from="1590657363386" duration="758000" />
+      <workItem from="1590657363386" duration="3229000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8108000" />
+    <option name="totallyTimeSpent" value="10579000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="-11" width="1329" height="780" extended-state="6" />
@@ -237,7 +263,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.30493274" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -286,8 +312,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
+        <state relative-caret-position="407">
+          <caret line="41" column="48" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/nullable.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="542">
+          <caret line="40" column="19" selection-start-line="40" selection-start-column="19" selection-end-line="40" selection-end-column="19" />
         </state>
       </provider>
     </entry>
