@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ffb74-2d32-4fc8-99fd-518d933940b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/useDataTypes_Operations/Booleans&amp;Operators.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/useDataTypes_Operations/Booleans&amp;Operators.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,17 +20,35 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/Main.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-13">
+            <state relative-caret-position="90">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/Booleans&amp;Operators.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="292">
-              <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+            <state relative-caret-position="300">
+              <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/logicalOperators.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="70" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -52,6 +71,8 @@
         <option value="$PROJECT_DIR$/src/Main.kt" />
         <option value="$PROJECT_DIR$/src/UseDataTypes_Operations/Main.kt" />
         <option value="$PROJECT_DIR$/src/useDataTypes_Operations/Booleans&amp;Operators.kt" />
+        <option value="$PROJECT_DIR$/src/useDataTypes_Operations/logicalOperators.kt" />
+        <option value="$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt" />
       </list>
     </option>
   </component>
@@ -67,7 +88,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -91,6 +111,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,7 +144,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.useDataTypes_Operations.LogicalOperatorsKt">
+  <component name="RunManager" selected="Kotlin.useDataTypes_Operations.BranchwithIfExpressionsandScopeKt">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" value="" />
@@ -150,6 +171,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="useDataTypes_Operations.BranchwithIfExpressionsandScopeKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamentalsRw" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="useDataTypes_Operations.BranchwithIfExpressionsandScopeKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="useDataTypes_Operations.LogicalOperatorsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" />
@@ -165,6 +199,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.useDataTypes_Operations.BranchwithIfExpressionsandScopeKt" />
         <item itemvalue="Kotlin.useDataTypes_Operations.LogicalOperatorsKt" />
         <item itemvalue="Kotlin.useDataTypes_Operations.Booleans_OperatorsKt" />
       </list>
@@ -181,18 +216,19 @@
       <option name="presentableId" value="Default" />
       <updated>1590477857247</updated>
       <workItem from="1590477859820" duration="2402000" />
-      <workItem from="1590480415426" duration="3623000" />
+      <workItem from="1590480415426" duration="4948000" />
+      <workItem from="1590657363386" duration="758000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6025000" />
+    <option name="totallyTimeSpent" value="8108000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="-11" width="1329" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25370803" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25761124" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -201,7 +237,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32884902" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32884902" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -229,15 +265,29 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/Main.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-13">
+        <state relative-caret-position="90">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/Booleans&amp;Operators.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="69" column="69" selection-start-line="69" selection-start-column="69" selection-end-line="69" selection-end-column="69" />
+        <state relative-caret-position="300">
+          <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/logicalOperators.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="21" selection-start-line="6" selection-start-column="21" selection-end-line="6" selection-end-column="21" />
         </state>
       </provider>
     </entry>
