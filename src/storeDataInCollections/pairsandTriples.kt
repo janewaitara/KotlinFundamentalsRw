@@ -32,7 +32,7 @@ fun main() {
     * BA needs to have a credit card connected to It, balance
     * CC should have a card number , security code ad the type of the card(e.g visa or masterCard)
     *
-    * print out the data ofthe bank Account while hiding the security coe
+    * print out the data of the bank Account while hiding the security coe
     * */
 
     val creditCard = Triple(1254,"jkl","Visa")

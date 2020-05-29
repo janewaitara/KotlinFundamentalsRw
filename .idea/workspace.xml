@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ffb74-2d32-4fc8-99fd-518d933940b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/manageControlFlow/loopUsingForLoop.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manageControlFlow/exitingEarly.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/manageControlFlow/LoopUsingWhileLoopKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/manageControlFlow/LoopUsingWhileLoopKt.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/manageControlFlow/loopUsingWhileLoop.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/manageControlFlow/loopUsingWhileLoop.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/META-INF/KotlinFundamentalsRw.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/META-INF/KotlinFundamentalsRw.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,11 +19,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/manageControlFlow/loopUsingForLoop.kt">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
-              <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+            <state relative-caret-position="195">
+              <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/manageControlFlow/exitingEarly.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="167">
+              <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/arrays.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/lists.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="557">
+              <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -50,13 +77,14 @@
         <option value="$PROJECT_DIR$/src/useDataTypes_Operations/BranchwithIfExpressionsandScope.kt" />
         <option value="$PROJECT_DIR$/src/useDataTypes_Operations/nullable.kt" />
         <option value="$PROJECT_DIR$/src/useDataTypes_Operations/challenge.kt" />
-        <option value="$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt" />
-        <option value="$PROJECT_DIR$/src/storeDataInCollections/arrays.kt" />
         <option value="$PROJECT_DIR$/src/storeDataInCollections/lists.kt" />
         <option value="$PROJECT_DIR$/src/storeDataInCollections/challengesOnArraysandLists.kt" />
         <option value="$PROJECT_DIR$/src/storeDataInCollections/challengeOnCollectionandIfElse.kt" />
         <option value="$PROJECT_DIR$/src/manageControlFlow/loopUsingWhileLoop.kt" />
         <option value="$PROJECT_DIR$/src/manageControlFlow/loopUsingForLoop.kt" />
+        <option value="$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt" />
+        <option value="$PROJECT_DIR$/src/storeDataInCollections/arrays.kt" />
+        <option value="$PROJECT_DIR$/src/manageControlFlow/exitingEarly.kt" />
       </list>
     </option>
   </component>
@@ -140,7 +168,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.manageControlFlow.LoopUsingForLoopKt">
+  <component name="RunManager" selected="Kotlin.manageControlFlow.ExitingEarlyKt">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" value="" />
@@ -150,6 +178,19 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="useDataTypes_Operations.MainKt" />
       <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="manageControlFlow.ExitingEarlyKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamentalsRw" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="manageControlFlow.ExitingEarlyKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -175,19 +216,6 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="manageControlFlow.LoopUsingWhileLoopKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="storeDataInCollections.ArraysKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFundamentalsRw" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="storeDataInCollections.ArraysKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -221,11 +249,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.manageControlFlow.ExitingEarlyKt" />
         <item itemvalue="Kotlin.manageControlFlow.LoopUsingForLoopKt" />
         <item itemvalue="Kotlin.manageControlFlow.LoopUsingWhileLoopKt" />
         <item itemvalue="Kotlin.storeDataInCollections.ChallengeOnCollectionandIfElseKt" />
         <item itemvalue="Kotlin.storeDataInCollections.ChallengesOnArraysandListsKt" />
-        <item itemvalue="Kotlin.storeDataInCollections.ArraysKt" />
       </list>
     </recent_temporary>
   </component>
@@ -242,18 +270,19 @@
       <workItem from="1590477859820" duration="2402000" />
       <workItem from="1590480415426" duration="4948000" />
       <workItem from="1590657363386" duration="11068000" />
-      <workItem from="1590688379428" duration="8188000" />
+      <workItem from="1590688379428" duration="12355000" />
+      <workItem from="1590786191377" duration="3698000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26606000" />
+    <option name="totallyTimeSpent" value="34471000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="39" y="-4" width="1327" height="772" extended-state="6" />
+    <frame x="38" y="-11" width="1329" height="780" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26151446" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22326307" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -262,7 +291,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.30493274" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5246637" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -330,27 +359,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/lists.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="482">
-          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/arrays.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="242">
-          <caret line="60" column="19" selection-start-line="60" selection-start-column="19" selection-end-line="60" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="347">
-          <caret line="34" column="73" selection-start-line="34" selection-start-column="73" selection-end-line="34" selection-end-column="73" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/challengesOnArraysandLists.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -360,22 +368,50 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/challengeOnCollectionandIfElse.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="35" selection-start-line="23" selection-start-column="35" selection-end-line="23" selection-end-column="35" />
+        <state relative-caret-position="195">
+          <caret line="13" column="92" lean-forward="true" selection-start-line="13" selection-start-column="92" selection-end-line="13" selection-end-column="96" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manageControlFlow/loopUsingWhileLoop.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="14" column="8" lean-forward="true" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
+          <caret line="14" column="8" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manageControlFlow/loopUsingForLoop.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
-          <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
+        <state relative-caret-position="514">
+          <caret line="59" column="16" lean-forward="true" selection-start-line="59" selection-start-column="16" selection-end-line="59" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/pairsandTriples.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="16" column="14" lean-forward="true" selection-start-line="16" selection-start-column="14" selection-end-line="16" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/arrays.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/storeDataInCollections/lists.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="557">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manageControlFlow/exitingEarly.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="167">
+          <caret line="76" column="1" lean-forward="true" selection-start-line="76" selection-start-column="1" selection-end-line="76" selection-end-column="1" />
         </state>
       </provider>
     </entry>
