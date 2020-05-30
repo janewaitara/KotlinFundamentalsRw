@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ffb74-2d32-4fc8-99fd-518d933940b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/manageControlFlow/challengeIteratingCollection.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/manageControlFlow/whenExpression.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/manageControlFlow/ExitingEarlyKt.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/manageControlFlow/ExitingEarlyKt.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,11 +26,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/manageControlFlow/challengeIteratingCollection.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+            <state relative-caret-position="347">
+              <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/manageControlFlow/whenExpression.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="512">
+              <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
             </state>
           </provider>
         </entry>
@@ -67,6 +75,7 @@
         <option value="$PROJECT_DIR$/src/storeDataInCollections/arrays.kt" />
         <option value="$PROJECT_DIR$/src/manageControlFlow/exitingEarly.kt" />
         <option value="$PROJECT_DIR$/src/manageControlFlow/challengeIteratingCollection.kt" />
+        <option value="$PROJECT_DIR$/src/manageControlFlow/whenExpression.kt" />
       </list>
     </option>
   </component>
@@ -150,7 +159,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.manageControlFlow.ChallengeIteratingCollectionKt">
+  <component name="RunManager" selected="Kotlin.manageControlFlow.WhenExpressionKt">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" value="" />
@@ -216,14 +225,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="storeDataInCollections.ChallengeOnCollectionandIfElseKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+    <configuration name="manageControlFlow.WhenExpressionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="storeDataInCollections.ChallengeOnCollectionandIfElseKt" />
+      <option name="MAIN_CLASS_NAME" value="manageControlFlow.WhenExpressionKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -231,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.manageControlFlow.WhenExpressionKt" />
         <item itemvalue="Kotlin.manageControlFlow.ChallengeIteratingCollectionKt" />
         <item itemvalue="Kotlin.manageControlFlow.ExitingEarlyKt" />
         <item itemvalue="Kotlin.manageControlFlow.LoopUsingForLoopKt" />
         <item itemvalue="Kotlin.manageControlFlow.LoopUsingWhileLoopKt" />
-        <item itemvalue="Kotlin.storeDataInCollections.ChallengeOnCollectionandIfElseKt" />
       </list>
     </recent_temporary>
   </component>
@@ -253,12 +262,12 @@
       <workItem from="1590480415426" duration="4948000" />
       <workItem from="1590657363386" duration="11068000" />
       <workItem from="1590688379428" duration="12355000" />
-      <workItem from="1590786191377" duration="6364000" />
+      <workItem from="1590786191377" duration="9078000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37137000" />
+    <option name="totallyTimeSpent" value="39851000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="-11" width="1329" height="780" extended-state="6" />
@@ -399,8 +408,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/manageControlFlow/challengeIteratingCollection.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="50" column="44" lean-forward="true" selection-start-line="50" selection-start-column="44" selection-end-line="50" selection-end-column="44" />
+        <state relative-caret-position="347">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manageControlFlow/whenExpression.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="512">
+          <caret line="50" column="15" selection-start-line="50" selection-start-column="15" selection-end-line="50" selection-end-column="15" />
         </state>
       </provider>
     </entry>
