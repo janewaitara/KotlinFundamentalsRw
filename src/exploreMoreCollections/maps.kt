@@ -42,6 +42,9 @@ fun main() {
     println("")
 
     /**
+     * Maps are a collection of pairs
+     * They are like dictionaries
+     *
      * MUTABILITY
      *  Referential mutability
      *      Can or can not change the reference of an value.
