@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ffb74-2d32-4fc8-99fd-518d933940b2" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/exploreMoreCollections/maps.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/exploreMoreCollections/maps.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exploreMoreCollections/challengeInMaps.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,11 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exploreMoreCollections/maps.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="542">
+            <state relative-caret-position="775">
               <caret line="77" column="66" selection-start-line="77" selection-start-column="66" selection-end-line="77" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/exploreMoreCollections/challengeInMaps.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -76,6 +86,7 @@
         <option value="$PROJECT_DIR$/src/manageControlFlow/challengeIteratingCollection.kt" />
         <option value="$PROJECT_DIR$/src/manageControlFlow/whenExpression.kt" />
         <option value="$PROJECT_DIR$/src/exploreMoreCollections/maps.kt" />
+        <option value="$PROJECT_DIR$/src/exploreMoreCollections/challengeInMaps.kt" />
       </list>
     </option>
   </component>
@@ -165,7 +176,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.exploreMoreCollections.MapsKt">
+  <component name="RunManager" selected="Kotlin.exploreMoreCollections.ChallengeInMapsKt">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" value="" />
@@ -175,6 +186,19 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="useDataTypes_Operations.MainKt" />
       <option name="WORKING_DIRECTORY" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="exploreMoreCollections.ChallengeInMapsKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamentalsRw" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="exploreMoreCollections.ChallengeInMapsKt" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -218,19 +242,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="manageControlFlow.LoopUsingForLoopKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFundamentalsRw" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="manageControlFlow.LoopUsingForLoopKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="manageControlFlow.WhenExpressionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" />
@@ -246,11 +257,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.exploreMoreCollections.ChallengeInMapsKt" />
         <item itemvalue="Kotlin.exploreMoreCollections.MapsKt" />
         <item itemvalue="Kotlin.manageControlFlow.WhenExpressionKt" />
         <item itemvalue="Kotlin.manageControlFlow.ChallengeIteratingCollectionKt" />
         <item itemvalue="Kotlin.manageControlFlow.ExitingEarlyKt" />
-        <item itemvalue="Kotlin.manageControlFlow.LoopUsingForLoopKt" />
       </list>
     </recent_temporary>
   </component>
@@ -268,12 +279,12 @@
       <workItem from="1590480415426" duration="4948000" />
       <workItem from="1590657363386" duration="11068000" />
       <workItem from="1590688379428" duration="12355000" />
-      <workItem from="1590786191377" duration="12647000" />
+      <workItem from="1590786191377" duration="13983000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43420000" />
+    <option name="totallyTimeSpent" value="44756000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="38" y="-11" width="1329" height="780" extended-state="6" />
@@ -428,8 +439,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exploreMoreCollections/maps.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="542">
+        <state relative-caret-position="775">
           <caret line="77" column="66" selection-start-line="77" selection-start-column="66" selection-end-line="77" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/exploreMoreCollections/challengeInMaps.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="18" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
         </state>
       </provider>
     </entry>
