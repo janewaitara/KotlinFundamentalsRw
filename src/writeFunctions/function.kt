@@ -2,7 +2,7 @@ package writeFunctions
 
 fun main() {
 
-    //a function to create a range
+    //a function to create a range using a default parameter
     fun createRanges(start: Int, end: Int, isHalfOpen: Boolean = false) : IntRange{
         return if (isHalfOpen){
             start until end
@@ -25,10 +25,13 @@ fun main() {
     val halfOpenRange = createRanges(1,10,true)
     printRange(halfOpenRange)
 
+    //named arguments
     val usingNamedArguments = createRanges(isHalfOpen = true,start = 10, end = 15)
     printRange(usingNamedArguments)
 
     printRange(createRanges(3,5,isHalfOpen = true))
+
+
 
 
 
