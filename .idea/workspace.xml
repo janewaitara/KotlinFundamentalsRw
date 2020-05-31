@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ffb74-2d32-4fc8-99fd-518d933940b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/createClasses/challengeClass.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/createClasses/modelObjectsUsingDataClasses.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/createClasses/class.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="302">
-              <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+            <state relative-caret-position="-13">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
             </state>
           </provider>
         </entry>
@@ -29,17 +29,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/createClasses/methodsandClassMutability.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+            <state relative-caret-position="333">
+              <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/createClasses/challengeClass.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="525">
+              <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/createClasses/challengeClass.kt">
+        <entry file="file://$PROJECT_DIR$/src/createClasses/modelObjectsUsingDataClasses.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="123">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="318">
+              <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -85,8 +94,9 @@
         <option value="$PROJECT_DIR$/src/writeFunctions/challengeFunction.kt" />
         <option value="$PROJECT_DIR$/src/exploreMoreCollections/functionsAsParameters.kt" />
         <option value="$PROJECT_DIR$/src/createClasses/mwthodsandClassMutability.kt" />
-        <option value="$PROJECT_DIR$/src/createClasses/class.kt" />
         <option value="$PROJECT_DIR$/src/createClasses/challengeClass.kt" />
+        <option value="$PROJECT_DIR$/src/createClasses/class.kt" />
+        <option value="$PROJECT_DIR$/src/createClasses/modelObjectsUsingDataClasses.kt" />
       </list>
     </option>
   </component>
@@ -102,6 +112,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -154,8 +166,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -188,7 +198,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.createClasses.ChallengeClassKt">
+  <component name="RunManager" selected="Kotlin.createClasses.ModelObjectsUsingDataClassesKt">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" value="" />
@@ -241,6 +251,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="createClasses.ModelObjectsUsingDataClassesKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamentalsRw" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="createClasses.ModelObjectsUsingDataClassesKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="exploreMoreCollections.FunctionsAsParametersKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" />
@@ -254,26 +277,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="writeFunctions.ChallengeFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFundamentalsRw" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="writeFunctions.ChallengeFunctionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.createClasses.ModelObjectsUsingDataClassesKt" />
+        <item itemvalue="Kotlin.createClasses.ClassKt" />
         <item itemvalue="Kotlin.createClasses.ChallengeClassKt" />
         <item itemvalue="Kotlin.createClasses.MethodsandClassMutabilityKt" />
-        <item itemvalue="Kotlin.createClasses.ClassKt" />
         <item itemvalue="Kotlin.exploreMoreCollections.FunctionsAsParametersKt" />
-        <item itemvalue="Kotlin.writeFunctions.ChallengeFunctionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -295,18 +305,20 @@
       <workItem from="1590864155052" duration="7010000" />
       <workItem from="1590872250650" duration="7673000" />
       <workItem from="1590882361104" duration="583000" />
-      <workItem from="1590882977698" duration="3152000" />
+      <workItem from="1590882977698" duration="3569000" />
+      <workItem from="1590886580751" duration="48000" />
+      <workItem from="1590909269341" duration="1299000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="66588000" />
+    <option name="totallyTimeSpent" value="68352000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="-4" width="1327" height="772" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23887588" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24668229" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -520,24 +532,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/createClasses/class.kt">
+    <entry file="file://$PROJECT_DIR$/src/createClasses/challengeClass.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="302">
-          <caret line="24" column="4" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="4" />
+        <state relative-caret-position="525">
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="31" selection-end-line="35" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/createClasses/methodsandClassMutability.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="41" column="12" selection-start-line="41" selection-start-column="12" selection-end-line="41" selection-end-column="12" />
+        <state relative-caret-position="333">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/createClasses/challengeClass.kt">
+    <entry file="file://$PROJECT_DIR$/src/createClasses/class.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="123">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="-13">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createClasses/modelObjectsUsingDataClasses.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="318">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
         </state>
       </provider>
     </entry>
