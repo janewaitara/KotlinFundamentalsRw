@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="794ffb74-2d32-4fc8-99fd-518d933940b2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/createClasses/class.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/createClasses/mwthodsandClassMutability.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/META-INF/KotlinFundamentalsRw.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/KotlinFundamentalsRw/META-INF/KotlinFundamentalsRw.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/createClasses/class.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/createClasses/class.kt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -45,11 +45,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/createClasses/class.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+            <state relative-caret-position="17">
+              <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/createClasses/mwthodsandClassMutability.kt">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="348">
+              <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -104,6 +113,7 @@
         <option value="$PROJECT_DIR$/src/writeFunctions/challengeFunction.kt" />
         <option value="$PROJECT_DIR$/src/exploreMoreCollections/functionsAsParameters.kt" />
         <option value="$PROJECT_DIR$/src/createClasses/class.kt" />
+        <option value="$PROJECT_DIR$/src/createClasses/mwthodsandClassMutability.kt" />
       </list>
     </option>
   </component>
@@ -205,7 +215,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Kotlin.createClasses.ClassKt">
+  <component name="RunManager" selected="Kotlin.createClasses.MwthodsandClassMutabilityKt">
     <configuration name="Main" type="JetRunConfigurationType" factoryName="Kotlin">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" value="" />
@@ -227,6 +237,19 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="MAIN_CLASS_NAME" value="createClasses.ClassKt" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="createClasses.MwthodsandClassMutabilityKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
+      <module name="KotlinFundamentalsRw" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" value="createClasses.MwthodsandClassMutabilityKt" />
       <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -258,19 +281,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="writeFunctions.FunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
-      <module name="KotlinFundamentalsRw" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" value="writeFunctions.FunctionKt" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="writeFunctions.ReturnDataFromFunctionKt" type="JetRunConfigurationType" factoryName="Kotlin" temporary="true" nameIsGenerated="true">
       <module name="KotlinFundamentalsRw" />
       <option name="VM_PARAMETERS" />
@@ -286,11 +296,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.createClasses.MwthodsandClassMutabilityKt" />
         <item itemvalue="Kotlin.createClasses.ClassKt" />
         <item itemvalue="Kotlin.exploreMoreCollections.FunctionsAsParametersKt" />
         <item itemvalue="Kotlin.writeFunctions.ChallengeFunctionKt" />
         <item itemvalue="Kotlin.writeFunctions.ReturnDataFromFunctionKt" />
-        <item itemvalue="Kotlin.writeFunctions.FunctionKt" />
       </list>
     </recent_temporary>
   </component>
@@ -312,12 +322,12 @@
       <workItem from="1590864155052" duration="7010000" />
       <workItem from="1590872250650" duration="7673000" />
       <workItem from="1590882361104" duration="583000" />
-      <workItem from="1590882977698" duration="324000" />
+      <workItem from="1590882977698" duration="2215000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="63760000" />
+    <option name="totallyTimeSpent" value="65651000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="39" y="-4" width="1327" height="772" extended-state="6" />
@@ -332,7 +342,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.35724962" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.35724962" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39910313" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -539,8 +549,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/createClasses/class.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        <state relative-caret-position="17">
+          <caret line="4" column="2" lean-forward="true" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/createClasses/mwthodsandClassMutability.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="54" column="25" selection-start-line="54" selection-start-column="25" selection-end-line="54" selection-end-column="25" />
         </state>
       </provider>
     </entry>

@@ -29,6 +29,8 @@ fun main() {
     println(janeClone.age)
 
     var janeTwo = Person( "Jane","Waitara", 24)
+
+    //comparing references
     println(jane == lydiah)
     println(jane == janeClone)
     println(jane === janeClone)
